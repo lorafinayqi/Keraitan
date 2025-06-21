@@ -76,7 +76,9 @@ const NavBar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           {/* Logo and Product button */}
           <div className="flex items-center gap-7">
-            <img src="/img/logo.png" alt="logo" className="w-10" />
+            <a href="#top">
+              <img src="/img/logo.png" alt="logo" className="w-10" />
+            </a>
 
             <a href="https://maps.app.goo.gl/acavF1abEbTVpGhH7" target="_blank" rel="noopener noreferrer">
             <Button
@@ -92,15 +94,15 @@ const NavBar = () => {
           <div className="flex h-full items-center">
             <div className="hidden md:block">
              {navItems.map((item, index) => (
-  <a
-    key={index}
-    href={item.href}
-    className="nav-hover-btn"
-    {...(item.href.startsWith("http") && {
+   <a
+      key={index}
+      href={item.href}
+      className="nav-hover-btn"
+      {...(item.href.startsWith("http") && {
       target: "_blank",
       rel: "noopener noreferrer",
-    })}
-  >
+      })}
+    >
     {item.label}
                 </a>
               ))}
