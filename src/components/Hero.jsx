@@ -12,12 +12,14 @@ gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
   const [hasClicked, setHasClicked] = useState(false);
-
   const [loading, setLoading] = useState(true);
   const [loadedVideos, setLoadedVideos] = useState(0);
 
   const totalVideos = 4;
-  const nextVdRef = useRef(null);
+
+  // Refs untuk dua video berbeda
+  const previewVideoRef = useRef(null);
+  const mainVideoRef = useRef(null);
 
   const handleVideoLoad = () => {
     setLoadedVideos((prev) => prev + 1);
@@ -31,7 +33,6 @@ const Hero = () => {
 
   const handleMiniVdClick = () => {
     setHasClicked(true);
-
     setCurrentIndex((prevIndex) => (prevIndex % totalVideos) + 1);
   };
 
@@ -46,7 +47,20 @@ const Hero = () => {
           height: "100%",
           duration: 1,
           ease: "power1.inOut",
-          onStart: () => nextVdRef.current.play(),
+          onStart: () => {
+            const video = mainVideoRef.current;
+            if (video && video.readyState >= 3) {
+              video.play().catch((err) => console.warn("Video play error:", err));
+            } else {
+              video?.addEventListener(
+                "canplay",
+                () => {
+                  video.play().catch((err) => console.warn("Video play error (delayed):", err));
+                },
+                { once: true }
+              );
+            }
+          },
         });
         gsap.from("#current-video", {
           transformOrigin: "center center",
@@ -86,7 +100,6 @@ const Hero = () => {
     <div className="relative h-dvh w-screen overflow-x-hidden">
       {loading && (
         <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-violet-50">
-          {/* https://uiverse.io/G4b413l/tidy-walrus-92 */}
           <div className="three-body">
             <div className="three-body__dot"></div>
             <div className="three-body__dot"></div>
@@ -100,6 +113,7 @@ const Hero = () => {
         className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-blue-75"
       >
         <div>
+          {/* Video preview kecil */}
           <div className="mask-clip-path absolute-center absolute z-50 size-64 cursor-pointer overflow-hidden rounded-lg">
             <VideoPreview>
               <div
@@ -107,10 +121,12 @@ const Hero = () => {
                 className="origin-center scale-50 opacity-0 transition-all duration-500 ease-in hover:scale-100 hover:opacity-100"
               >
                 <video
-                  ref={nextVdRef}
+                  ref={previewVideoRef}
                   src={getVideoSrc((currentIndex % totalVideos) + 1)}
                   loop
                   muted
+                  playsInline
+                  preload="metadata"
                   id="current-video"
                   className="size-64 origin-center scale-150 object-cover object-center"
                   onLoadedData={handleVideoLoad}
@@ -119,22 +135,27 @@ const Hero = () => {
             </VideoPreview>
           </div>
 
+          {/* Video utama */}
           <video
-            ref={nextVdRef}
+            ref={mainVideoRef}
             src={getVideoSrc(currentIndex)}
             loop
             muted
+            playsInline
+            preload="auto"
             id="next-video"
             className="absolute-center invisible absolute z-20 size-64 object-cover object-center"
             onLoadedData={handleVideoLoad}
           />
+
+          {/* Background video */}
           <video
-            src={getVideoSrc(
-              currentIndex === totalVideos - 1 ? 1 : currentIndex
-            )}
+            src={getVideoSrc(currentIndex === totalVideos - 1 ? 1 : currentIndex)}
             autoPlay
             loop
             muted
+            playsInline
+            preload="auto"
             className="absolute left-0 top-0 size-full object-cover object-center"
             onLoadedData={handleVideoLoad}
           />
@@ -149,18 +170,20 @@ const Hero = () => {
             <h1 className="special-font hero-heading text-blue-100">
               De<b>s</b>a
             </h1>
-
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
               Enter the Village of Keraitan <br /> Revive the Spirit of Communal Harmony and Play
             </p>
-
-            <a href="https://youtube.com/@kkn49unmulkelompok07?si=VnZLd2wOXys4ljFH" target="_blank" rel="noopener noreferrer">
-            <Button
-              id="watch-trailer"
-              title="Watch trailer"
-              leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-500 flex-center gap-1"
-            />
+            <a
+              href="https://youtube.com/@kkn49unmulkelompok07?si=VnZLd2wOXys4ljFH"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                id="watch-trailer"
+                title="Watch trailer"
+                leftIcon={<TiLocationArrow />}
+                containerClass="bg-yellow-500 flex-center gap-1"
+              />
             </a>
           </div>
         </div>
