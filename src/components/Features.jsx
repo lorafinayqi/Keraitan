@@ -117,7 +117,7 @@ export const BentoCard = ({
             rel="noopener noreferrer"
             ref={hoverButtonRef}
             onMouseMove={handleMouseMove}
-            className="border-hsla relative flex w-fit cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-yellow-600 px-5 py-2 text-xs uppercase text-white"
+            className="border-hsla relative flex w-fit cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-yellow-600 px-5 py-2 text-xs uppercase text-white font-bold"
           >
             <div
               className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
