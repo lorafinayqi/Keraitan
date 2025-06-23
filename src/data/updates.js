@@ -18,9 +18,9 @@ export const updates = [
     link: "https://medium.com/@afripow/notifikasi-salah-masuk-isekai-1f70326a5f05"
   },
   {
-    title: "📱 Notifikasi Salah, Masuk Isekai!",
-    date: "22.06.2025",
-    image: "img/gallery-3.webp",
+    title: "Dari Jas Hitam ke Jurus Isekai: Meeting Pagi, Lawan Iblis Sore 🕴️",
+    date: "23.06.2025",
+    image: "img/gallery-4.webp",
     link: "https://medium.com/@afripow/notifikasi-salah-masuk-isekai-1f70326a5f05"
   },
 ];
