@@ -10,34 +10,39 @@ const socialLinks = [
 
 const Footer = () => {
   return (
-    <footer className="w-screen   bg-yellow-600 py-4 text-black">
-      <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
-        <p className="text-center text-sm font-light md:text-left">
-          ©Keraitan 2025. All rights reserved
-        </p>
+    <footer className="w-screen bg-yellow-600 py-4 text-black">
+  <div className="container mx-auto flex flex-col items-center gap-4 px-4 md:flex-row md:justify-between">
+    
+    {/* Kiri: Hak Cipta */}
+    <p className="text-center text-sm font-light md:text-left md:flex-1">
+      ©Keraitan 2025. All rights reserved
+    </p>
 
-        <div className="flex justify-center gap-4  md:justify-start">
-          {socialLinks.map((link, index) => (
-            <a
-              key={index}
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-black transition-colors duration-500 ease-in-out hover:text-white"
-            >
-              {link.icon}
-            </a>
-          ))}
-        </div>
-
+    {/* Tengah: Ikon Sosial Media */}
+    <div className="flex justify-center gap-4">
+      {socialLinks.map((link, index) => (
         <a
-          href="#privacy-policy"
-          className="text-center text-sm font-light hover:underline md:text-right"
+          key={index}
+          href={link.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-black transition-colors duration-500 ease-in-out hover:text-white"
         >
-          Privacy Policy
+          {link.icon}
         </a>
-      </div>
-    </footer>
+      ))}
+    </div>
+
+    {/* Kanan: Privacy Policy */}
+    <a
+      href="#privacy-policy"
+      className="text-center text-sm font-light hover:underline md:text-right md:flex-1"
+    >
+      Privacy Policy
+    </a>
+    
+  </div>
+</footer>
   );
 };
 

@@ -113,8 +113,6 @@ export const BentoCard = ({
         {isComingSoon && (
           <a
             href={comingSoonLink || "#"}
-            target="_blank"
-            rel="noopener noreferrer"
             ref={hoverButtonRef}
             onMouseMove={handleMouseMove}
             className="border-hsla relative flex w-fit cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-yellow-600 px-5 py-2 text-xs uppercase text-white font-bold"
@@ -162,10 +160,10 @@ const Features = () => (
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
             src="videos/feature-2.mp4"
-            title={<>Tak<b>ay</b>an</>}
-            description="puyeng"
+            title={<>SO<b>T</b>K</>}
+            description="Struktur Organisasi dan Tata Kerja Desa Keraitan"
             isComingSoon
-            comingSoonLink="https://youtube.com/@kkn49unmulkelompok07"
+            comingSoonLink="/sotk"
           />
         </BentoTilt>
 

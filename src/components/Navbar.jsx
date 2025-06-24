@@ -76,7 +76,7 @@ const NavBar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           {/* Logo and Product button */}
           <div className="flex items-center gap-7">
-            <a href="#top">
+            <a href="/">
               <img src="/img/logo.png" alt="logo" className="w-10" />
             </a>
 
