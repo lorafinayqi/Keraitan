@@ -170,8 +170,8 @@ const Features = () => (
         <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
           <BentoCard
             src="videos/feature-3.mp4"
-            title={<>Tak<b>ay</b>an</>}
-            description="puyeng"
+            title={<>Info<b>gr</b>afis</>}
+            description="Infografis Desa Keraitan"
             isComingSoon
             comingSoonLink="https://youtube.com/@kkn49unmulkelompok07"
           />
