@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import LatestUpdates from "./components/LatestUpdates";
 import Footer from "./components/Footer";
 import SOTK from "./pages/sotk"; // halaman baru
+import VisionMission from "./pages/VisionMission"; // halaman baru
 
 const Home = () => (
   <>
@@ -29,6 +30,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sotk" element={<SOTK />} />
+          <Route path="/vision-mission" element={<VisionMission />} />
         </Routes>
         <Footer />
       </main>

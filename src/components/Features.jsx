@@ -152,7 +152,7 @@ const Features = () => (
           title={<>Kerait<b>a</b>n</>}
           description="A village that turns every visit into a meaningful cultural journey."
           isComingSoon
-          comingSoonLink="https://youtube.com/@kkn49unmulkelompok07"
+          comingSoonLink="/vision-mission"
         />
       </BentoTilt>
 

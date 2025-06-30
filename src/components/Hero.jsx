@@ -168,7 +168,7 @@ const Hero = () => {
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
             <h1 className="special-font hero-heading text-blue-100">
-              De<b>s</b>a
+              DE<b>S</b>A
             </h1>
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
               Enter the Village of Keraitan <br /> Revive the Spirit of Communal Harmony and Play
