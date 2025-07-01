@@ -173,7 +173,7 @@ const Features = () => (
             title={<>Info<b>gr</b>afis</>}
             description="Infografis Desa Keraitan"
             isComingSoon
-            comingSoonLink="https://youtube.com/@kkn49unmulkelompok07"
+            comingSoonLink="/demografi"
           />
         </BentoTilt>
 

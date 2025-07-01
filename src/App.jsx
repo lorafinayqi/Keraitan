@@ -9,6 +9,7 @@ import LatestUpdates from "./components/LatestUpdates";
 import Footer from "./components/Footer";
 import SOTK from "./pages/sotk"; // halaman baru
 import VisionMission from "./pages/VisionMission"; // halaman baru
+import DemografiPage from "./pages/demografi"; // halaman baru
 
 const Home = () => (
   <>
@@ -31,6 +32,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sotk" element={<SOTK />} />
           <Route path="/vision-mission" element={<VisionMission />} />
+          <Route path="/demografi" element={<DemografiPage />} />
         </Routes>
         <Footer />
       </main>

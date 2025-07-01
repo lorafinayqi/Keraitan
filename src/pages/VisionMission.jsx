@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import { GiVillage } from "react-icons/gi";
 import { Icon } from "leaflet";
 import "leaflet/dist/leaflet.css";
 
@@ -85,9 +84,9 @@ const VisionMission = () => {
               style={{ height: "100%", width: "100%" }}
             >
               <TileLayer
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                attribution='&copy; <a href="https://www.google.com/maps/place/QHJV%2BR6H+Kantor+Desa+Keraitan,+Keraitan,+Kec.+Bengalon,+Kabupaten+Kutai+Timur,+Kalimantan+Timur/data=!4m2!3m1!1s0x320bbf0068f35fd9:0x89a75bef71e3dfc9?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI1LjIzLjEYACDXggMqhgEsOTQyNTk1NTE5NDI3NTMwOCw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw5NDI3NTE2NCw0NzA4NDM5Myw5NDIxMzIwMCw5NDI1ODMyNUICSUQ%3D&skid=9230d435-597b-416f-99f0-529a2eef2d5f">Keraitan</a>'
-              />
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution='&copy; <a href="https://www.google.com/maps/place/QHJV%2BR6H+Kantor+Desa+Keraitan,+Keraitan,+Kec.+Bengalon,+Kabupaten+Kutai+Timur,+Kalimantan+Timur/data=!4m2!3m1!1s0x320bbf0068f35fd9:0x89a75bef71e3dfc9?utm_source=mstt_1&entry=gps" target="_blank" rel="noopener noreferrer">Keraitan</a>'
+            />
               <Marker position={center} icon={customIcon}>
                 <Popup>
                   Kantor Desa Keraitan
