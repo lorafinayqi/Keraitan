@@ -1,9 +1,8 @@
 import { FaUsers, FaUserTie, FaFemale, FaMale, FaHeart,
-  FaPrayingHands,
   FaYinYang,
+  FaDharmachakra,
   FaToriiGate,
-  FaChurch,
-  FaPlaceOfWorship,
+  FaStarAndCrescent,
   FaCross,
   FaBible,
   FaOm,
@@ -201,17 +200,17 @@ const DemografiPage = () => {
   </h3>
   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5">
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
-      <FaPrayingHands className="text-yellow-600 text-5xl mb-3" />
+      <FaStarAndCrescent className="text-yellow-600 text-5xl mb-3" />
       <p className="text-gray-500">Islam</p>
       <p className="text-yellow-600 text-3xl font-bold">1.148</p>
     </div>
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
-      <FaYinYang className="text-yellow-500 text-5xl mb-3" />
+      <FaDharmachakra className="text-yellow-500 text-5xl mb-3" />
       <p className="text-gray-500">Buddha</p>
       <p className="text-yellow-600 text-3xl font-bold">0</p>
     </div>
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
-      <FaToriiGate className="text-yellow-500 text-5xl mb-3" />
+      <FaYinYang className="text-yellow-500 text-5xl mb-3" />
       <p className="text-gray-500">Konghucu</p>
       <p className="text-yellow-600 text-3xl font-bold">0</p>
     </div>
