@@ -180,10 +180,10 @@ const Features = () => (
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
             src="videos/feature-4.mp4"
-            title={<>Tak<b>ay</b>an</>}
-            description="puyeng"
+            title={<>SD<b>G</b>S</>}
+            description="Skor SDGS Desa Keraitan"
             isComingSoon
-            comingSoonLink="https://youtube.com/@kkn49unmulkelompok07"
+            comingSoonLink="/sdgs"
           />
         </BentoTilt>
 

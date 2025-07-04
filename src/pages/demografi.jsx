@@ -1,7 +1,6 @@
 import { FaUsers, FaUserTie, FaFemale, FaMale, FaHeart,
   FaYinYang,
   FaDharmachakra,
-  FaToriiGate,
   FaStarAndCrescent,
   FaCross,
   FaBible,
@@ -73,7 +72,7 @@ const DemografiPage = () => {
           </p>
         </div>
 
-        <a className="flex flex-col items-center justify-center bg-white p-6 rounded-xl shadow-lg hover:scale-[1.02] transition-all duration-300 w-full max-w-md">
+        <a className="hidden md:flex flex-col items-center justify-center bg-white p-6 rounded-xl shadow-lg hover:scale-[1.02] transition-all duration-300 w-full max-w-md">
           <img
             src="img/gallery-4.webp"
             alt="Ilustrasi Demografi"

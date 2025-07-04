@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import SOTK from "./pages/sotk"; // halaman baru
 import VisionMission from "./pages/VisionMission"; // halaman baru
 import DemografiPage from "./pages/demografi"; // halaman baru
+import SDGsDesa from "./pages/SDGsDesa"; // halaman baru
 
 const Home = () => (
   <>
@@ -33,6 +34,7 @@ function App() {
           <Route path="/sotk" element={<SOTK />} />
           <Route path="/vision-mission" element={<VisionMission />} />
           <Route path="/demografi" element={<DemografiPage />} />
+          <Route path="/sdgs" element={<SDGsDesa />} />
         </Routes>
         <Footer />
       </main>
