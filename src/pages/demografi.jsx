@@ -35,24 +35,21 @@ const CustomLabelPerempuan = ({ x, y, value, width }) => (
 );
 
 const dataUmur = [
-  { umur: "0-4", laki: 20, perempuan: 21 },
-  { umur: "5-9", laki: 53, perempuan: 44 },
-  { umur: "10-14", laki: 81, perempuan: 59 },
-  { umur: "15-19", laki: 67, perempuan: 50 },
-  { umur: "20-24", laki: 60, perempuan: 56 },
-  { umur: "25-29", laki: 55, perempuan: 55 },
-  { umur: "30-34", laki: 37, perempuan: 56 },
-  { umur: "35-39", laki: 30, perempuan: 43 },
-  { umur: "40-44", laki: 56, perempuan: 39 },
-  { umur: "45-49", laki: 40, perempuan: 36 },
-  { umur: "50-54", laki: 26, perempuan: 35 },
-  { umur: "55-59", laki: 33, perempuan: 20 },
-  { umur: "60-64", laki: 16, perempuan: 20 },
-  { umur: "65-69", laki: 8, perempuan: 6 },
-  { umur: "70-74", laki: 9, perempuan: 10 },
-  { umur: "75-79", laki: 5, perempuan: 4 },
-  { umur: "80-84", laki: 5, perempuan: 2 },
-  { umur: "85+", laki: 4, perempuan: 5 },
+  { umur: "0-4", laki: 14, perempuan: 13 },
+  { umur: "5-9", laki: 22, perempuan: 21 },
+  { umur: "10-14", laki: 27, perempuan: 16 },
+  { umur: "15-19", laki: 18, perempuan: 18 },
+  { umur: "20-24", laki: 16, perempuan: 4 },
+  { umur: "25-29", laki: 21, perempuan: 18 },
+  { umur: "30-34", laki: 11, perempuan: 17 },
+  { umur: "35-39", laki: 19, perempuan: 12 },
+  { umur: "40-44", laki: 19, perempuan: 14 },
+  { umur: "45-49", laki: 8, perempuan: 4 },
+  { umur: "50-54", laki: 8, perempuan: 6 },
+  { umur: "55-59", laki: 5, perempuan: 3 },
+  { umur: "60-64", laki: 3, perempuan: 3 },
+  { umur: "65-69", laki: 0, perempuan: 1 },
+  { umur: "70+", laki: 4, perempuan: 1 },
 ];
 
 const DemografiPage = () => {
@@ -144,12 +141,13 @@ const DemografiPage = () => {
           </ResponsiveContainer>
         </div>
 
-        <div className="mt-4 p-4 bg-white border-l-4 border-yellow-400 shadow">
-          Untuk jenis kelamin laki-laki, kelompok umur <strong>10–14</strong> adalah kelompok umur tertinggi dengan jumlah <strong>80 orang</strong> atau <strong>13.22%</strong>. Sedangkan, kelompok umur <strong>85+</strong> adalah yang terendah dengan jumlah <strong>4 orang</strong> atau <strong>0.66%</strong>.
+       <div className="mt-4 p-4 bg-white border-l-4 border-yellow-400 shadow">
+          Untuk jenis kelamin laki-laki, kelompok umur <strong>10–14</strong> adalah kelompok umur tertinggi dengan jumlah <strong>27 orang</strong> atau <strong>13.22%</strong>. Sedangkan, kelompok umur <strong>65-69</strong> adalah yang terendah dengan jumlah <strong>0 orang</strong> atau <strong>0%</strong>.
         </div>
 
+
         <div className="mt-4 p-4 bg-white border-l-4 border-red-800 shadow">
-          Untuk jenis kelamin perempuan, kelompok umur <strong>10–14</strong> adalah kelompok umur tertinggi dengan jumlah <strong>59 orang</strong> atau <strong>10.87%</strong>. Sedangkan, kelompok umur <strong>80–84</strong> adalah yang terendah dengan jumlah <strong>2 orang</strong> atau <strong>0.37%</strong>.
+          Untuk jenis kelamin perempuan, kelompok umur <strong>5-9</strong> adalah kelompok umur tertinggi dengan jumlah <strong>21 orang</strong> atau <strong>13.91%</strong>. Sedangkan, kelompok umur <strong>70+</strong> adalah yang terendah dengan jumlah <strong>1 orang</strong> atau <strong>0.66%</strong>.
         </div>
       </div>
 
