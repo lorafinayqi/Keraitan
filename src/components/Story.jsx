@@ -107,10 +107,10 @@ const FloatingImage = () => {
               Where traditions meet, lies Keraitan and its enduring soul. Discover its charm and create lasting memories in a land of cultural richness.
             </p>
 
-            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+            <a href="/gallery">
             <Button 
               id="realm-btn"
-              title="discover prologue"
+              title="Galeri Desa"
               containerClass="mt-5"
             />
             </a>

@@ -11,6 +11,8 @@ import SOTK from "./pages/sotk"; // halaman baru
 import VisionMission from "./pages/VisionMission"; // halaman baru
 import DemografiPage from "./pages/demografi"; // halaman baru
 import SDGsDesa from "./pages/SDGsDesa"; // halaman baru
+import MaskAnimationPage from "./pages/MaskAnimationPage"; // halaman baru
+import Gallery from "./pages/Gallery"; // halaman baru
 
 const Home = () => (
   <>
@@ -35,6 +37,8 @@ function App() {
           <Route path="/vision-mission" element={<VisionMission />} />
           <Route path="/demografi" element={<DemografiPage />} />
           <Route path="/sdgs" element={<SDGsDesa />} />
+          <Route path="/mask-animation" element={<MaskAnimationPage />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
         <Footer />
       </main>

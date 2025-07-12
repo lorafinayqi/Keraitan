@@ -37,7 +37,7 @@ const Contact = () => {
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
           
-        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+        <a href="/mask-animation"> 
           <Button title="contact us" containerClass="mt-10 cursor-pointer" />
         </a>
         </div>

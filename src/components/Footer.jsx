@@ -19,7 +19,7 @@ const Footer = () => {
     </p>
 
     {/* Tengah: Ikon Sosial Media */}
-    <div className="flex justify-center gap-4">
+    <div className="flex justify-end md:pl-9 gap-4">
       {socialLinks.map((link, index) => (
         <a
           key={index}
@@ -36,9 +36,8 @@ const Footer = () => {
     {/* Kanan: Privacy Policy */}
     <a
       href="#privacy-policy"
-      className="text-center text-sm font-light hover:underline md:text-right md:flex-1"
-    >
-      Privacy Policy
+      className="text-center text-sm font-light hover:underline md:text-right md:flex-1 md:pr-8"
+    >Privacy Policy
     </a>
     
   </div>
