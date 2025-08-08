@@ -70,7 +70,7 @@ const VisionMission = () => {
             <hr className="my-4 border-white/40" />
             <div className="grid grid-cols-2 gap-2 text-sm text-white">
             <div><b>Luas Desa</b><br />421.000 m²</div>
-            <div><b>Jumlah Penduduk</b><br />1.148 Jiwa</div>
+            <div><b>Jumlah Penduduk</b><br />424 Jiwa</div>
           </div>
           </div>
           

@@ -6,7 +6,7 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 // Gambar dengan caption khusus, duplikat diizinkan
 const images = [
-  { src: "img/gallery-1.webp", caption: "Panorama Alam" },
+  { src: "img/gallery-1.webp", caption: "Festival Sekerat Nusantara" },
   { src: "img/gallery-2.webp", caption: "Pintu Masuk Keraitan" },
   { src: "img/gallery-3.webp", caption: "Kegiatan Adat" },
   { src: "img/gallery-4.webp", caption: "Suasana Senja" },

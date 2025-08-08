@@ -35,21 +35,19 @@ const CustomLabelPerempuan = ({ x, y, value, width }) => (
 );
 
 const dataUmur = [
-  { umur: "0-4", laki: 14, perempuan: 13 },
-  { umur: "5-9", laki: 22, perempuan: 21 },
-  { umur: "10-14", laki: 27, perempuan: 16 },
-  { umur: "15-19", laki: 18, perempuan: 18 },
-  { umur: "20-24", laki: 16, perempuan: 4 },
-  { umur: "25-29", laki: 21, perempuan: 18 },
-  { umur: "30-34", laki: 11, perempuan: 17 },
-  { umur: "35-39", laki: 19, perempuan: 12 },
-  { umur: "40-44", laki: 19, perempuan: 14 },
-  { umur: "45-49", laki: 8, perempuan: 4 },
-  { umur: "50-54", laki: 8, perempuan: 6 },
-  { umur: "55-59", laki: 5, perempuan: 3 },
-  { umur: "60-64", laki: 3, perempuan: 3 },
-  { umur: "65-69", laki: 0, perempuan: 1 },
-  { umur: "70+", laki: 4, perempuan: 1 },
+  { umur: "0-3", laki: 7, perempuan: 6 },
+  { umur: "4-5", laki: 9, perempuan: 7 },
+  { umur: "6-12", laki: 34, perempuan: 30 },
+  { umur: "13-16", laki: 14, perempuan: 19 },
+  { umur: "17", laki: 5, perempuan: 4 },
+  { umur: "18-25", laki: 50, perempuan: 32 },
+  { umur: "26-30", laki: 19, perempuan: 9 },
+  { umur: "31-35", laki: 24, perempuan: 20 },
+  { umur: "36-40", laki: 16, perempuan: 19 },
+  { umur: "41-65", laki: 53, perempuan: 37 },
+  { umur: "66-70", laki: 4, perempuan: 1 },
+  { umur: "71-80", laki: 5, perempuan: 0 },
+  { umur: "80+", laki: 0, perempuan: 0 },
 ];
 
 const DemografiPage = () => {
@@ -88,28 +86,28 @@ const DemografiPage = () => {
             <FaUsers className="text-yellow-600 text-5xl" />
             <div>
               <p className="text-gray-500">TOTAL PENDUDUK</p>
-              <p className="text-yellow-600 text-2xl font-bold">1.148 <span className="text-gray-700 font-normal">Jiwa</span></p>
+              <p className="text-yellow-600 text-2xl font-bold">424 <span className="text-gray-700 font-normal">Jiwa</span></p>
             </div>
           </div>
           <div className="flex items-center gap-4 p-5 rounded-lg shadow bg-white">
             <FaUserTie className="text-yellow-600 text-5xl" />
             <div>
               <p className="text-gray-500">KEPALA KELUARGA</p>
-              <p className="text-yellow-600 text-2xl font-bold">303 <span className="text-gray-700 font-normal">Jiwa</span></p>
+              <p className="text-yellow-600 text-2xl font-bold">138 <span className="text-gray-700 font-normal">Jiwa</span></p>
             </div>
           </div>
           <div className="flex items-center gap-4 p-5 rounded-lg shadow bg-white">
             <FaFemale className="text-yellow-600 text-5xl" />
             <div>
               <p className="text-gray-500">PEREMPUAN</p>
-              <p className="text-yellow-600 text-2xl font-bold">543 <span className="text-gray-700 font-normal">Jiwa</span></p>
+              <p className="text-yellow-600 text-2xl font-bold">184 <span className="text-gray-700 font-normal">Jiwa</span></p>
             </div>
           </div>
           <div className="flex items-center gap-4 p-5 rounded-lg shadow bg-white">
             <FaMale className="text-yellow-600 text-5xl" />
             <div>
               <p className="text-gray-500">LAKI-LAKI</p>
-              <p className="text-yellow-600 text-2xl font-bold">605 <span className="text-gray-700 font-normal">Jiwa</span></p>
+              <p className="text-yellow-600 text-2xl font-bold">240 <span className="text-gray-700 font-normal">Jiwa</span></p>
             </div>
           </div>
         </div>

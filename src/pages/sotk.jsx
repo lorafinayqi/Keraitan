@@ -1,63 +1,43 @@
 const aparatDesa = [
   {
-    name: "Daffa Muhammad Tito",
-    role: "Kaur Keuangan",
-    image: "img/gallery-3.webp",
-  },
-  {
-    name: "Daffa Muhammad Tito",
-    role: "Kepala Seksi Pelayanan dan Kesejahteraan",
-    image: "img/gallery-1.webp",
-  },
-  {
-    name: "Daffa Muhammad Tito",
-    role: "Kaur Umum dan Perencanaan",
-    image: "img/gallery-2.webp",
-  },
-  {
-    name: "Daffa Muhammad Tito",
-    role: "Kasi Pemerintahan",
-    image: "img/gallery-1.webp",
-  },
-  {
-    name: "Daffa Muhammad Tito",
-    role: "Kaur Umum",
-    image: "img/gallery-4.webp",
-  },
-  {
-    name: "Daffa Muhammad Tito",
-    role: "Kaur Perencanaan",
-    image: "img/gallery-7.webp",
-  },
-  {
-    name: "Daffa Muhammad Tito",
-    role: "Kepala Dusun",
-    image: "img/gallery-2.webp",
-  },
-  {
-    name: "Daffa Muhammad Tito",
-    role: "Kepala Dusun",
-    image: "img/gallery-6.webp",
-  },
-  {
-    name: "Daffa Muhammad Tito",
-    role: "Kepala Dusun",
-    image: "img/gallery-3.webp",
-  },
-  {
-    name: "Daffa Muhammad Tito",
-    role: "Kepala Dusun",
-    image: "img/gallery-5.webp",
-  },
-  {
-    name: "Daffa Muhammad Tito",
-    role: "Kepala Dusun",
-    image: "img/gallery-1.webp",
-  },
-  {
-    name: "Daffa Muhammad Tito",
+    name: "Gudiono",
     role: "Kepala Desa",
-    image: "img/gallery-2.webp",
+    image: "img/perangkat_img/gudiono.webp",
+  },
+  {
+    name: "Jaini",
+    role: "Sekretaris Desa",
+    image: "img/perangkat_img/jaini.webp",
+  },
+  {
+    name: "Misran",
+    role: "Kaur Pemerintahan",
+    image: "img/perangkat_img/misran.webp",
+  },
+  {
+    name: "Renoansyah",
+    role: "kaur Kesejahteraan Rakyat",
+    image: "img/perangkat_img/reno.webp",
+  },
+  {
+    name: "Hesti Melsatriani",
+    role: "Pelayanan",
+    image: "img/perangkat_img/hesty.webp",
+  },
+  {
+    name: "Sarkani",
+    role: "Kaur Perencanaan",
+    image: "img/perangkat_img/sark.webp",
+  },
+  {
+    name: "Teuku Adil Abdillah",
+    role: "Kaur Umum",
+    image: "img/perangkat_img/adil.webp",
+  },
+  {
+    name: "Wahrudi Saputra",
+    role: "Kaur Keuangan",
+    image: "img/perangkat_img/wahrudi.webp",
   },
 ];
 
@@ -77,7 +57,7 @@ const SOTK = () => {
       {/* Struktur Gambar */}
       <div className="flex justify-center mb-12">
         <img
-          src="img/gallery-5.webp"
+          src="img/perangkat_img/sotk_keraitan.webp"
           alt="Struktur Organisasi Desa"
           className="w-full max-w-6xl rounded-md shadow-md"
         />
