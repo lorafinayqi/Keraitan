@@ -148,7 +148,7 @@ const Features = () => (
 
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="videos/feature-1.mp4"
+          src="videos/feature-6.mp4"
           title={<>Kerait<b>a</b>n</>}
           description="A village that turns every visit into a meaningful cultural journey."
           isComingSoon

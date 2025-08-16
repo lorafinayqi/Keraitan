@@ -57,22 +57,7 @@ const VisionMission = () => {
       <div>
         <h2 className="text-3xl font-bold text-yellow-600 mb-10">Peta Lokasi Desa</h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 text-white">
-          {/* Info Desa */}
-          <div className="rounded-xl bg-yellow-600 p-8 shadow-md">
-            <h3 className="mb-4 text-lg text-white font-semibold">Batas Desa:</h3>
-            <div className="grid grid-cols-2 gap-2 text-sm text-white">
-              <div><b>Utara</b><br />Desa none</div>
-              <div><b>Timur</b><br />Selat none</div>
-              <div><b>Selatan</b><br />Selat none</div>
-              <div><b>Barat</b><br />Desa none</div>
-            </div>
-
-            <hr className="my-4 border-white/40" />
-            <div className="grid grid-cols-2 gap-2 text-sm text-white">
-            <div><b>Luas Desa</b><br />421.000 m²</div>
-            <div><b>Jumlah Penduduk</b><br />424 Jiwa</div>
-          </div>
-          </div>
+    
           
 
           {/* Peta */}

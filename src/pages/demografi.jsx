@@ -35,16 +35,16 @@ const CustomLabelPerempuan = ({ x, y, value, width }) => (
 );
 
 const dataUmur = [
-  { umur: "0-3", laki: 7, perempuan: 6 },
-  { umur: "4-5", laki: 9, perempuan: 7 },
-  { umur: "6-12", laki: 34, perempuan: 30 },
-  { umur: "13-16", laki: 14, perempuan: 19 },
+  { umur: "0-3", laki: 10, perempuan: 9 },
+  { umur: "4-5", laki: 9, perempuan: 8 },
+  { umur: "6-12", laki: 35, perempuan: 30 },
+  { umur: "13-16", laki: 14, perempuan: 22 },
   { umur: "17", laki: 5, perempuan: 4 },
-  { umur: "18-25", laki: 50, perempuan: 32 },
-  { umur: "26-30", laki: 19, perempuan: 9 },
-  { umur: "31-35", laki: 24, perempuan: 20 },
-  { umur: "36-40", laki: 16, perempuan: 19 },
-  { umur: "41-65", laki: 53, perempuan: 37 },
+  { umur: "18-25", laki: 51, perempuan: 33 },
+  { umur: "26-30", laki: 22, perempuan: 9 },
+  { umur: "31-35", laki: 25, perempuan: 21 },
+  { umur: "36-40", laki: 14, perempuan: 19 },
+  { umur: "41-65", laki: 57, perempuan: 38 },
   { umur: "66-70", laki: 4, perempuan: 1 },
   { umur: "71-80", laki: 5, perempuan: 0 },
   { umur: "80+", laki: 0, perempuan: 0 },
@@ -86,28 +86,28 @@ const DemografiPage = () => {
             <FaUsers className="text-yellow-600 text-5xl" />
             <div>
               <p className="text-gray-500">TOTAL PENDUDUK</p>
-              <p className="text-yellow-600 text-2xl font-bold">424 <span className="text-gray-700 font-normal">Jiwa</span></p>
+              <p className="text-yellow-600 text-2xl font-bold">445 <span className="text-gray-700 font-normal">Jiwa</span></p>
             </div>
           </div>
           <div className="flex items-center gap-4 p-5 rounded-lg shadow bg-white">
             <FaUserTie className="text-yellow-600 text-5xl" />
             <div>
               <p className="text-gray-500">KEPALA KELUARGA</p>
-              <p className="text-yellow-600 text-2xl font-bold">138 <span className="text-gray-700 font-normal">Jiwa</span></p>
+              <p className="text-yellow-600 text-2xl font-bold">143 <span className="text-gray-700 font-normal">Jiwa</span></p>
             </div>
           </div>
           <div className="flex items-center gap-4 p-5 rounded-lg shadow bg-white">
             <FaFemale className="text-yellow-600 text-5xl" />
             <div>
               <p className="text-gray-500">PEREMPUAN</p>
-              <p className="text-yellow-600 text-2xl font-bold">184 <span className="text-gray-700 font-normal">Jiwa</span></p>
+              <p className="text-yellow-600 text-2xl font-bold">194 <span className="text-gray-700 font-normal">Jiwa</span></p>
             </div>
           </div>
           <div className="flex items-center gap-4 p-5 rounded-lg shadow bg-white">
             <FaMale className="text-yellow-600 text-5xl" />
             <div>
               <p className="text-gray-500">LAKI-LAKI</p>
-              <p className="text-yellow-600 text-2xl font-bold">240 <span className="text-gray-700 font-normal">Jiwa</span></p>
+              <p className="text-yellow-600 text-2xl font-bold">251 <span className="text-gray-700 font-normal">Jiwa</span></p>
             </div>
           </div>
         </div>
@@ -140,12 +140,12 @@ const DemografiPage = () => {
         </div>
 
        <div className="mt-4 p-4 bg-white border-l-4 border-yellow-400 shadow">
-          Untuk jenis kelamin laki-laki, kelompok umur <strong>10–14</strong> adalah kelompok umur tertinggi dengan jumlah <strong>27 orang</strong> atau <strong>13.22%</strong>. Sedangkan, kelompok umur <strong>65-69</strong> adalah yang terendah dengan jumlah <strong>0 orang</strong> atau <strong>0%</strong>.
+          Untuk jenis kelamin laki-laki, kelompok umur <strong>41–65</strong> adalah kelompok umur tertinggi dengan jumlah <strong>57 orang</strong> atau <strong>22.7%</strong>. Sedangkan, kelompok umur <strong>66-70</strong> adalah yang terendah dengan jumlah <strong>4 orang</strong> atau <strong>1.6%</strong>.
         </div>
-
+       
 
         <div className="mt-4 p-4 bg-white border-l-4 border-red-800 shadow">
-          Untuk jenis kelamin perempuan, kelompok umur <strong>5-9</strong> adalah kelompok umur tertinggi dengan jumlah <strong>21 orang</strong> atau <strong>13.91%</strong>. Sedangkan, kelompok umur <strong>70+</strong> adalah yang terendah dengan jumlah <strong>1 orang</strong> atau <strong>0.66%</strong>.
+          Untuk jenis kelamin perempuan, kelompok umur <strong>18-25</strong> adalah kelompok umur tertinggi dengan jumlah <strong>33 orang</strong> atau <strong>19.6%</strong>. Sedangkan, kelompok umur <strong>71-80</strong> adalah yang terendah dengan jumlah <strong>0 orang</strong> atau <strong>0%</strong>.
         </div>
       </div>
 
@@ -158,22 +158,22 @@ const DemografiPage = () => {
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
       <FaHeart className="text-5xl text-yellow-400 mb-3" />
       <p className="text-gray-500">Belum Kawin</p>
-      <p className="text-yellow-600 text-3xl font-bold">622</p>
+      <p className="text-yellow-600 text-3xl font-bold">230</p>
     </div>
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
       <FaRing className="text-5xl text-yellow-600 mb-3" />
       <p className="text-gray-500">Kawin</p>
-      <p className="text-yellow-600 text-3xl font-bold">451</p>
+      <p className="text-yellow-600 text-3xl font-bold">198</p>
     </div>
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
       <FaUserTimes className="text-5xl text-yellow-500 mb-3" />
       <p className="text-gray-500">Cerai Mati</p>
-      <p className="text-yellow-600 text-3xl font-bold">69</p>
+      <p className="text-yellow-600 text-3xl font-bold">0</p>
     </div>
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
       <FaUserSlash className="text-5xl text-yellow-600 mb-3" />
       <p className="text-gray-500">Cerai Hidup</p>
-      <p className="text-yellow-600 text-3xl font-bold">3</p>
+      <p className="text-yellow-600 text-3xl font-bold">1</p>
     </div>
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
       <FaUserCheck className="text-5xl text-yellow-500 mb-3" />
@@ -183,7 +183,7 @@ const DemografiPage = () => {
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
       <FaBan className="text-5xl text-yellow-700 mb-3" />
       <p className="text-gray-500">Kawin Tidak Tercatat</p>
-      <p className="text-yellow-600 text-3xl font-bold">0</p>
+      <p className="text-yellow-600 text-3xl font-bold">3</p>
     </div>
   </div>
 </div>
@@ -197,7 +197,7 @@ const DemografiPage = () => {
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
       <FaStarAndCrescent className="text-yellow-600 text-5xl mb-3" />
       <p className="text-gray-500">Islam</p>
-      <p className="text-yellow-600 text-3xl font-bold">1.148</p>
+      <p className="text-yellow-600 text-3xl font-bold">442</p>
     </div>
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
       <FaDharmachakra className="text-yellow-500 text-5xl mb-3" />
@@ -212,7 +212,7 @@ const DemografiPage = () => {
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
       <FaCross className="text-yellow-600 text-5xl mb-3" />
       <p className="text-gray-500">Kristen</p>
-      <p className="text-yellow-600 text-3xl font-bold">0</p>
+      <p className="text-yellow-600 text-3xl font-bold">3</p>
     </div>
     <div className="bg-white p-5 rounded-lg shadow flex flex-col items-center text-center">
       <FaBible className="text-yellow-600 text-5xl mb-3" />
