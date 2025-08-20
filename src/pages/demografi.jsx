@@ -126,10 +126,10 @@ const DemografiPage = () => {
               <XAxis type="number" />
               <YAxis type="category" dataKey="umur" />
               <Tooltip />
-              <Bar dataKey="laki" fill="#FFB800" name="Laki-Laki">
+              <Bar dataKey="laki" fill="#FFB800" name="Man">
                 <LabelList dataKey="laki" content={<CustomLabelLaki />} />
               </Bar>
-              <Bar dataKey="perempuan" fill="#D2691E" name="Perempuan">
+              <Bar dataKey="perempuan" fill="#D2691E" name="Woman">
                 <LabelList dataKey="perempuan" content={<CustomLabelPerempuan />} />
               </Bar>
             </BarChart>

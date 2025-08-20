@@ -1,26 +1,26 @@
 export const updates = [
   {
-    title: "Karakter Utama Misterius 👺",
-    date: "22.06.2025",
+    title: "Village Keraitan MSME Exhibition Booth",
+    date: "23.07.2025",
     image: "img/gallery-1.webp",
-    link: "https://medium.com/@afripow/karakter-utama-misterius-9f2b06fd0f85"
+    link: "https://www.facebook.com/share/p/16NwcAPEXa/"
   },
   {
-    title: "Mata Merem, Takdir Berubah",
-    date: "22.06.2025",
+    title: "Training on Organic Fertilizer Production",
+    date: "06.08.2025",
     image: "img/gallery-2.webp",
-    link: "https://medium.com/@afripow/mata-merem-takdir-berubah-a24e403822f8"
+    link: "https://www.facebook.com/share/p/16ywTyWEVK/"
   },
   {
-    title: "📱 Notifikasi Salah, Masuk Isekai!",
-    date: "22.06.2025",
+    title: "Implementation of the August 17th Competitions",
+    date: "18.08.2025",
     image: "img/gallery-3.webp",
-    link: "https://medium.com/@afripow/notifikasi-salah-masuk-isekai-1f70326a5f05"
+    link: "https://www.facebook.com/share/p/1Fs3vtrfYc/"
   },
   {
-    title: "Dari Jas Hitam ke Jurus Isekai: Meeting Pagi, Lawan Iblis Sore 🕴️",
-    date: "23.06.2025",
+    title: "Cultural Festival (Preserve Culture, Ignite the Spirit of Independence)",
+    date: "19.08.2025",
     image: "img/gallery-4.webp",
-    link: "https://medium.com/@afripow/dari-jas-hitam-ke-jurus-isekai-meeting-pagi-lawan-iblis-sore-️-27cf0deff10c"
+    link: "https://www.facebook.com/share/p/172EbC4LLm/"
   },
 ];

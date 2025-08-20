@@ -49,7 +49,7 @@ const SOTK = () => {
         <div className="text-center md:text-left">
           <h1 className="text-3xl font-extrabold text-yellow-600">SOTK</h1>
           <p className="text-base font-medium text-gray-500">
-            Struktur Organisasi dan Tata Kerja Desa Keraitan
+            Organizational Structure and Working Procedures of Keraitan Villages
           </p>
         </div>
       </div>
@@ -65,7 +65,7 @@ const SOTK = () => {
 
       {/* Subjudul */}
       <h2 className="text-3xl font-extrabold text-center text-yellow-600 mb-8">
-        APARAT PEMERINTAH DESA
+        Village Government Officials
       </h2>
 
       {/* Grid max 4 kolom */}
