@@ -132,7 +132,7 @@ const goals = [
 
 const SDGsDesa = () => {
   const [score] = useState(40.66);
-  const [villageName] = useState("Kersik");
+  const [villageName] = useState("Keraitan");
   const [excelData, setExcelData] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const [viewType, setViewType] = useState("rekomendasi"); // "rekomendasi" or "target"
@@ -225,17 +225,18 @@ const SDGsDesa = () => {
       <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-start gap-10">
         <div className="flex-1">
           <h1 className="text-3xl md:text-4xl font-bold text-yellow-600 mb-6">
-            SDGs Desa
+            SDGS Desa
           </h1>
 
           <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-6">
-            SDGs desa mengacu pada upaya yang dilakukan di tingkat desa untuk mencapai Tujuan Pembangunan Berkelanjutan (Sustainable Development Goals/SDGs). SDGs merupakan agenda global yang ditetapkan oleh Perserikatan Bangsa-Bangsa (PBB) untuk mengatasi berbagai tantangan sosial, ekonomi, dan lingkungan di seluruh dunia.
+            Village SDGs refer to efforts carried out at the village level to achieve the Sustainable Development Goals (SDGs). The SDGs are a global agenda set by the United Nations (UN) to address various social, economic, and environmental challenges around the world.
+
           </p>
 
           <div className="bg-white border border-gray-200 rounded-lg shadow-md px-6 py-5 w-full max-w-md mt-6">
             <div className="flex items-center justify-between">
               <div className="text-gray-800 font-semibold text-lg">
-                Skor SDGs Desa<br />
+                Village SDGs Score<br />
                 {villageName}
               </div>
               <div className="text-4xl font-bold text-gray-600">

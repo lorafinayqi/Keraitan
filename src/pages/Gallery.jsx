@@ -42,7 +42,7 @@ const Gallery = () => {
       {/* Judul tengah */}
       <div className="mb-10 flex justify-center">
         <h1 className="text-3xl md:text-4xl font-bold tracking-wide text-center">
-          GALERI DESA
+          Village Gallery
         </h1>
       </div>
 

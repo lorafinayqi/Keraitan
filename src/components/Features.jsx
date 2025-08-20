@@ -150,7 +150,7 @@ const Features = () => (
         <BentoCard
           src="videos/feature-6.mp4"
           title={<>Kerait<b>a</b>n</>}
-          description="A village that turns every visit into a meaningful cultural journey."
+          description="A village that turns every visit into a meaningful cultural journey"
           isComingSoon
           comingSoonLink="/vision-mission"
         />
@@ -159,8 +159,8 @@ const Features = () => (
             <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
           src="videos/feature-1.mp4"
-          title={<>Galeri <b>D</b>esa</>}
-          description="A village that turns every visit into a meaningful cultural journey."
+          title={<>Village G<b>a</b>llery</>}
+          description="A gallery that shows the beauty of village life"
           isComingSoon
           comingSoonLink="/gallery"
         />
@@ -171,7 +171,7 @@ const Features = () => (
           <BentoCard
             src="videos/feature-2.mp4"
             title={<>SO<b>T</b>K</>}
-            description="Struktur Organisasi dan Tata Kerja Desa Keraitan"
+            description="Organizational Structure and Working Procedures of Keraitan Villages"
             isComingSoon
             comingSoonLink="/sotk"
           />
@@ -180,8 +180,9 @@ const Features = () => (
         <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
           <BentoCard
             src="videos/feature-3.mp4"
-            title={<>Info<b>gr</b>afis</>}
-            description="Infografis Desa Keraitan"
+            title={<>Info<b>gr</b>aphic</>}
+            description="An infographic that turns data into clear and simple stories.
+"
             isComingSoon
             comingSoonLink="/demografi"
           />
@@ -191,7 +192,8 @@ const Features = () => (
           <BentoCard
             src="videos/feature-4.mp4"
             title={<>SD<b>G</b>S</>}
-            description="Skor SDGS Desa Keraitan"
+            description="A vision of sustainable growth for a better village future.
+"
             isComingSoon
             comingSoonLink="/sdgs"
           />

@@ -110,7 +110,7 @@ const FloatingImage = () => {
             <a href="/gallery">
             <Button 
               id="realm-btn"
-              title="Galeri Desa"
+              title="Village Gallery"
               containerClass="mt-5"
             />
             </a>
