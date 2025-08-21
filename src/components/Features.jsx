@@ -166,6 +166,16 @@ const Features = () => (
         />
       </BentoTilt>
 
+       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
+        <BentoCard
+          src="videos/feature-7.mp4"
+          title={<>SD <b>F</b>ilial 013 Bengalon</>}
+          description="A school that reflects the spirit of learning in the heart of the village"
+          isComingSoon
+          comingSoonLink="/gallery"
+        />
+      </BentoTilt>
+
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard

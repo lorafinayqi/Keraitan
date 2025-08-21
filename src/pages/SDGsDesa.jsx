@@ -3,126 +3,126 @@ import * as XLSX from "xlsx";
 
 const goals = [
  { 
-    name: "Desa Tanpa Kemiskinan", 
+    name: "Village Without Poverty", 
     score: 47.45, 
     icon: "img/sdgs_img/1-DesaKm.webp",
     rekomendasiFile: "data/rekom_1.xlsx",
     targetFile: "data/target_1.xlsx"
   },
   { 
-    name: "Desa Tanpa Kelaparan", 
+    name: "Village Without Hunger", 
     score: 42.11, 
     icon: "img/sdgs_img/2-DesaKl.webp",
     rekomendasiFile: "data/rekom_2.xlsx",
     targetFile: "data/target_2.xlsx"
   },
   { 
-    name: "Desa Sehat dan Sejahtera", 
+    name: "Healthy and Prosperous Village", 
     score: 56.50, 
     icon: "img/sdgs_img/3-DesaSj.webp",
     rekomendasiFile: "data/rekom_3.xlsx",
     targetFile: "data/target_3.xlsx"
   },
   { 
-    name: "Pendidikan Desa Berkualitas", 
+    name: "Quality Village Education", 
     score: 24.02, 
     icon: "img/sdgs_img/4-DesaBk.webp",
     rekomendasiFile: "data/rekom_4.xlsx",
     targetFile: "data/target_4.xlsx"
   },
   { 
-    name: "Keterlibatan Perempuan Desa", 
+    name: "Involvement of Village Women", 
     score: 40.48, 
     icon: "img/sdgs_img/5-DesaPd.webp",
     rekomendasiFile: "data/rekom_5.xlsx",
     targetFile: "data/target_5.xlsx"
   },
   { 
-    name: "Desa Layak Air Bersih dan Sanitasi", 
+    name: "Villages Deserving of Clean Water and Sanitation", 
     score: 40.29, 
     icon: "img/sdgs_img/6-DesaAs.webp",
     rekomendasiFile: "data/rekom_6.xlsx",
     targetFile: "data/target_6.xlsx"
   },
   { 
-    name: "Desa Berenergi Bersih dan Terbarukan", 
+    name: "Clean and Renewable Energy Village", 
     score: 98.23, 
     icon: "img/sdgs_img/7-DesaBt.webp",
     rekomendasiFile: "data/rekom_7.xlsx",
     targetFile: "data/target_7.xlsx"
   },
   { 
-    name: "Pertumbuhan Ekonomi Desa Merata", 
+    name: "Even Village Economic Growth", 
     score: 44.82, 
     icon: "img/sdgs_img/8-DesaDm.webp",
     rekomendasiFile: "data/rekom_8.xlsx",
     targetFile: "data/target_8.xlsx"
   },
   { 
-    name: "Infrastruktur dan Inovasi Desa Sesuai Kebutuhan", 
+    name: "Village Infrastructure and Innovation According to Needs", 
     score: 0.00, 
     icon: "img/sdgs_img/9-DesaIk.webp",
     rekomendasiFile: "data/rekom_9.xlsx",
     targetFile: "data/target_9.xlsx"
   },
   { 
-    name: "Desa Tanpa Kesenjangan", 
+    name: "Village Without Gaps", 
     score: 36.06, 
     icon: "img/sdgs_img/10-DesaKs.webp",
     rekomendasiFile: "data/rekom_10.xlsx",
     targetFile: "data/target_10.xlsx"
   },
   { 
-    name: "Kawasan Pemukiman Desa Aman dan Nyaman", 
+    name: "Safe and Comfortable Village Residential Area", 
     score: 44.52, 
     icon: "img/sdgs_img/11-DesaAn.webp",
     rekomendasiFile: "data/rekom_11.xlsx",
     targetFile: "data/target_11.xlsx"
   },
   { 
-    name: "Konsumsi dan Produksi Desa Sadar Lingkungan", 
+    name: "Environmentally Conscious Village Consumption and Production", 
     score: 0.00, 
     icon: "img/sdgs_img/12-DesaPl.webp",
     rekomendasiFile: "data/rekom_12.xlsx",
     targetFile: "data/target_12.xlsx"
   },
   { 
-    name: "Desa Tanggap Perubahan Iklam", 
+    name: "Village Responding to Climate Change", 
     score: 0.00, 
     icon: "img/sdgs_img/13-DesaPk.webp",
     rekomendasiFile: "data/rekom_13.xlsx",
     targetFile: "data/target_13.xlsx"
   },
   { 
-    name: "Desa Peduli Lingkungan Laut", 
+    name: "Marine Environment Care Village", 
     score: 50.00, 
     icon: "img/sdgs_img/14-DesaLk.webp",
     rekomendasiFile: "data/rekom_14.xlsx",
     targetFile: "data/target_14.xlsx"
   },
   { 
-    name: "Desa Peduli Lingkungan Darat", 
+    name: "Land Environment Care Village", 
     score: 6.79, 
     icon: "img/sdgs_img/15-DesaLd.webp",
     rekomendasiFile: "data/rekom_15.xlsx",
     targetFile: "data/target_15.xlsx"
   },
    { 
-    name: "Desa Damai Berkeadilan", 
+    name: "Village of Peace and Justice", 
     score: 88.94, 
     icon: "img/sdgs_img/16-DesaDb.webp",
     rekomendasiFile: "data/rekom_16.xlsx",
     targetFile: "data/target_16.xlsx"
   },
      { 
-    name: "Kemitraan untuk Pembangunan Desa", 
+    name: "Partnership for Village Development", 
     score: 41.02, 
     icon: "img/sdgs_img/17-DesaPd.webp",
     rekomendasiFile: "data/rekom_17.xlsx",
     targetFile: "data/target_17.xlsx"
   },
    { 
-    name: "Kelembagaan Desa Dinamis dan Budaya Desa Adaptif", 
+    name: "Dynamic Village Institutions and Adaptive Village Culture", 
     score: 70.60, 
     icon: "img/sdgs_img/18-DesaDad.webp",
     rekomendasiFile: "data/rekom_18.xlsx",
@@ -264,7 +264,7 @@ const SDGsDesa = () => {
               viewType === "rekomendasi" ? "bg-yellow-600 text-white" : "bg-white text-gray-700"
             }`}
           >
-            Rekomendasi
+            Recommendation
           </button>
           <button
             onClick={toggleViewType}
@@ -272,7 +272,7 @@ const SDGsDesa = () => {
               viewType === "target" ? "bg-yellow-600 text-white" : "bg-white text-gray-700"
             }`}
           >
-            Target Capaian
+            Achievement Targets
           </button>
         </div>
       </div>

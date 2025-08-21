@@ -37,7 +37,11 @@ const Contact = () => {
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
           
-        <a href="/mask-animation"> 
+        <a
+         target="_blank"
+         rel="noopener noreferrer"
+         href="https://www.facebook.com/groups/526628090421701/?ref=share&mibextid=KtfwRis"> 
+        
           <Button title="contact us" containerClass="mt-10 cursor-pointer" />
         </a>
         </div>

@@ -1,43 +1,69 @@
 const aparatDesa = [
   {
-    name: "Gudiono",
-    role: "Kepala Desa",
+    name: "GUDIONO",
+    role: "Village Head",
     image: "img/perangkat_img/gudiono.webp",
   },
   {
-    name: "Jaini",
-    role: "Sekretaris Desa",
+    name: "JAINI",
+    role: "Village Secretary",
     image: "img/perangkat_img/jaini.webp",
   },
   {
-    name: "Misran",
-    role: "Kaur Pemerintahan",
+    name: "MISRAN",
+    role: "Head of Government Affairs",
     image: "img/perangkat_img/misran.webp",
   },
   {
-    name: "Renoansyah",
-    role: "kaur Kesejahteraan Rakyat",
+    name: "RENOANSYAH",
+    role: "Head of People's Welfare Affairs",
     image: "img/perangkat_img/reno.webp",
   },
   {
-    name: "Hesti Melsatriani",
-    role: "Pelayanan",
+    name: "HESTI MELSATRIANI",
+    role: "Service",
     image: "img/perangkat_img/hesty.webp",
   },
   {
-    name: "Sarkani",
-    role: "Kaur Perencanaan",
+    name: "SARKANI",
+    role: "Head of Planning Affairs",
     image: "img/perangkat_img/sark.webp",
   },
   {
-    name: "Teuku Adil Abdillah",
-    role: "Kaur Umum",
+    name: "TEUKU ADIL ABDILLAH",
+    role: "Head of General Affairs",
     image: "img/perangkat_img/adil.webp",
   },
   {
-    name: "Wahrudi Saputra",
-    role: "Kaur Keuangan",
+    name: "WAHRUDI SAPUTRA",
+    role: "Head of Financial Affairs",
     image: "img/perangkat_img/wahrudi.webp",
+  },
+
+  {
+    name: "PIRDAUS",
+    role: "Village Staff or Other Officials",
+    image: "img/perangkat_img/pirda.webp",
+  },
+  {
+    name: "ABDUL GAFUR",
+    role: "Village Staff or Other Officials",
+    image: "img/perangkat_img/gafur.webp",
+  },
+  {
+    name: "MOCHAMMAD AFANDI",
+    role: "Head of Hamlet 01",
+    image: "img/perangkat_img/afandi.webp",
+  },
+    {
+    name: "BASRI",
+    role: "Office Guard",
+    image: "img/perangkat_img/basri.webp",
+  },
+   {
+    name: "IRASAN",
+    role: "Village Staff or Other Officials",
+    image: "img/perangkat_img/iras.webp",
   },
 ];
 

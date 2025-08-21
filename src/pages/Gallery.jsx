@@ -6,22 +6,26 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 // Gambar dengan caption khusus, duplikat diizinkan
 const images = [
-  { src: "img/gallery-1.webp", caption: "Festival Sekerat Nusantara" },
-  { src: "img/gallery-2.webp", caption: "Pintu Masuk Keraitan" },
-  { src: "img/gallery-3.webp", caption: "Kegiatan Adat" },
-  { src: "img/gallery-4.webp", caption: "Suasana Senja" },
-  { src: "img/gallery-5.webp", caption: "Wajah Warga Lokal" },
-  { src: "img/gallery-6.webp", caption: "Detail Arsitektur" },
-  { src: "img/gallery-7.webp", caption: "Kegiatan Pasar" },
-  { src: "img/gallery-2.webp", caption: "Pintu Masuk Keraitan (Duplikat)" },
-  { src: "img/gallery-1.webp", caption: "Panorama Alam" },
-  { src: "img/gallery-2.webp", caption: "Pintu Masuk Keraitan" },
-  { src: "img/gallery-3.webp", caption: "Kegiatan Adat" },
-  { src: "img/gallery-4.webp", caption: "Suasana Senja" },
-  { src: "img/gallery-1.webp", caption: "Panorama Alam" },
-  { src: "img/gallery-2.webp", caption: "Pintu Masuk Keraitan" },
-  { src: "img/gallery-6.webp", caption: "Detail Arsitektur" },
-  { src: "img/gallery-7.webp", caption: "Kegiatan Pasar" },
+  { src: "img/desagal_img/desa-1.webp", caption: "Stand Pameran UMKM Desa Keraitan" },
+  { src: "img/desagal_img/desa-2.webp", caption: "Pelatihan Pembuatan Pupuk Organik" },
+  { src: "img/desagal_img/desa-3.webp", caption: "Kegiatan 17 Agustus" },
+  { src: "img/desagal_img/desa-4.webp", caption: "Festival Budaya" },
+  { src: "img/proker_img/afri.webp", caption: "Edukasi Literasi Keuangan Dasar Untuk Siswa" },
+  { src: "img/proker_img/abi.webp", caption: "Manajemen Inovatif" },
+  { src: "img/proker_img/cia.webp", caption: "Edukasi Kesadaran Hukum Sejak Dini melalui Kegiatan Tanggung Jawab, Hak dan Aturan di Sekolah untuk Siswa SD" },
+  { src: "img/proker_img/daffa.webp", caption: "Pintu Masuk Keraitan" },
+  { src: "img/proker_img/efrat.webp", caption: "Edukasi Keterampilan Dasar Membaca Citra Satelit dan Denah Wilayah Desa Keraitan" },
+  { src: "img/proker_img/mila.webp", caption: "Pemberdayaan Orang Tua dan Komunitas dalam Pembelajaran Anak" },
+  { src: "img/proker_img/muthia.webp", caption: "Mitigasi Bencana Alam Banjir" },
+  { src: "img/proker_img/dewi.webp", caption: "Kelas Cerita dan Puisi: Membangun Imajinasi dan Literasi Anak" },
+  {src: "img/proker_img/rosa.webp", caption: "English Fun Class dan Pemberdayaan Masyarakat" },
+  { src: "img/proker_img/nana.webp", caption: "Pembelajaran IPA Menyenangkan dengan Media Daur Ulang" },
+  { src: "img/desagal_img/desa-5.webp", caption: "Rapat Mediasi antara Perusahaan Perkebunan dengan Koperasi dan Lembaga Desa" },
+  { src: "img/desagal_img/desa-6.webp", caption: "Pemandangan Air Terjun Keraitan" },
+  { src: "img/desagal_img/desa-7.webp", caption: "Pemandangan Sungai Keraitan" },
+  { src: "img/desagal_img/desa-8.webp", caption: "Musyawarah Desa Penyampaian Realisasi ADD" },
+  {src: "img/desagal_img/desa-9.webp", caption: "Penyerahan BLT Dana Desa" },
+  { src: "img/desagal_img/desa-10.webp", caption: "Rembuk Stunting" },
 ];
 
 const splitIntoColumns = (arr, columns) => {
@@ -34,7 +38,7 @@ const splitIntoColumns = (arr, columns) => {
 
 const Gallery = () => {
   const [index, setIndex] = useState(-1);
-  const columns = 4;
+  const columns = 3;
   const grouped = splitIntoColumns(images, columns);
 
   return (
@@ -47,7 +51,7 @@ const Gallery = () => {
       </div>
 
       {/* Grid Masonry-style */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {grouped.map((col, colIndex) => (
           <div key={colIndex} className="grid gap-6">
             {col.map((img, i) => {
